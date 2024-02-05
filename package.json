@@ -9,11 +9,14 @@
         "preview": "vite preview",
         "format": "prettier . --write"
     },
+    "dependencies": {
+        "better-sqlite3": "^9.4.0"
     },
     "devDependencies": {
         "@sveltejs/adapter-vercel": "^5.1.0",
         "@sveltejs/kit": "^2.0.0",
         "@sveltejs/vite-plugin-svelte": "^3.0.0",
+        "@types/better-sqlite3": "^7.6.9",
         "prettier": "^3.2.5",
         "prettier-plugin-svelte": "^3.1.2",
         "prettier-plugin-tailwindcss": "^0.5.11",
